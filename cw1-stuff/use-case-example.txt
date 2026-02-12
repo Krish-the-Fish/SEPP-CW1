@@ -1,0 +1,8 @@
+Use case: Request information on supermarket
+Primary Actor: Shielding individual
+Supporting Actors: None
+Pre-condition: Individual is registered on the system
+Success guarantee: receives list of information
+Failure: Individual doesn't get list of supermarkets
+Main success scenario: Individual requests the information and receives it from the system, use case will then end
+Extensions: Individual's post code is too far for delivery - system informs them and the use-case will end
